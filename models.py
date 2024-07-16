@@ -1,7 +1,6 @@
 from enum import Enum
 from typing import Optional
 
-
 class UserRole(Enum):
     ADMIN = 'admin'
     USER = 'user'

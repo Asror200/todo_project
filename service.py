@@ -76,7 +76,6 @@ def register(form):
     cursor.execute(register_user_query, data)
     return Response('User successfully registered', status_code=200)
 
-
 @is_authenticated
 def get_all_users():
     users = [] # databazadan kelgan userlarni saqlab block_user funksiyasiga yuborish uchun ishlatildi

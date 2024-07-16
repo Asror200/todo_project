@@ -34,7 +34,6 @@ create_todo_query = """create table if not exists todo(
 );
 """
 
-
 def create_table() -> None:
     cursor.execute(create_user_query)
     cursor.execute(create_todo_query)

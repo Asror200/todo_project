@@ -1,5 +1,4 @@
 import bcrypt
-
 from typing import Optional
 
 

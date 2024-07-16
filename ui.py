@@ -1,6 +1,5 @@
 import service
 from colorama import Fore
-
 from utils import Response
 from form import UserRegisterForm
 
