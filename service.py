@@ -56,7 +56,6 @@ def register_admin(form):
     cursor.execute(register_user_query, data)
     return Response('Admin successfully registered', status_code=200)
 
-
 @commit
 def register(form):
     if check_validation(form):
